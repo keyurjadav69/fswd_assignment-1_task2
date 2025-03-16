@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-100">
+
+    <!-- Sidebar -->
+    <div class="flex h-screen">
+        <div class="w-64 bg-gray-800 text-white flex flex-col">
+            <!-- Logo -->
+            <div class="p-4 bg-gray-900">
+                <h1 class="text-2xl font-bold">Dashboard</h1>
+            </div>
+            <!-- Navigation Links -->
+            <div class="flex-1 p-4 space-y-4">
+                <a href="#" class="block p-2 hover:bg-gray-700 rounded">Dashboard</a>
+                <a href="#" class="block p-2 hover:bg-gray-700 rounded">Settings</a>
+                <a href="#" class="block p-2 hover:bg-gray-700 rounded">Users</a>
+                <a href="#" class="block p-2 hover:bg-gray-700 rounded">Reports</a>
+                <a href="#" class="block p-2 hover:bg-gray-700 rounded">Support</a>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 p-4">
+            <!-- Topbar -->
+            <div class="bg-white p-4 shadow-md rounded-lg mb-6">
+                <div class="flex justify-between items-center">
+                    <h2 class="text-2xl font-semibold">Welcome Back, User</h2>
+                    <div class="flex items-center space-x-4">
+                        <button class="p-2 text-gray-500 hover:text-gray-700">Notifications</button>
+                        <button class="p-2 text-gray-500 hover:text-gray-700">Profile</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dashboard Cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-lg font-semibold">Total Students</h3>
+                    <p class="text-2xl font-bold mt-2">145</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-lg font-semibold">Total Marks</h3>
+                    <p class="text-2xl font-bold mt-2">100</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-lg font-semibold">Percentage
